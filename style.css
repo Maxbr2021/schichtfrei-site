@@ -36,13 +36,6 @@ header.top {
 .brand img { width: 36px; height: 36px; border-radius: 9px; }
 .brand span { font-weight: 900; font-size: 20px; letter-spacing: -0.3px; }
 
-nav.tabs { display: flex; gap: 4px; flex-wrap: wrap; }
-nav.tabs a {
-  text-decoration: none; color: var(--secondary); font-weight: 800; font-size: 14px;
-  padding: 6px 12px; border-radius: 999px;
-}
-nav.tabs a[aria-current="page"] { background: var(--ink); color: #fff; }
-
 .hero { text-align: center; padding: 40px 0 24px; }
 .hero img { width: 112px; height: 112px; border-radius: 26px; box-shadow: 0 10px 30px rgba(42, 39, 51, 0.15); }
 .hero h1 { font-size: clamp(32px, 7vw, 46px); font-weight: 900; letter-spacing: -1px; line-height: 1.1; margin: 24px 0 12px; }
