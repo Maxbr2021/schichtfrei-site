@@ -89,6 +89,6 @@ footer a { color: var(--muted); }
     --bg: #17151c; --card: #221f29; --ink: #f2eff6; --secondary: #bdb6c8; --muted: #8f889b;
     --line: rgba(242, 239, 246, 0.12); --fill: #2c2833; --free-ink: oklch(0.8 0.1 160);
   }
-  nav.tabs a[aria-current="page"], .store { background: var(--ink); color: #17151c; }
+  .store { background: var(--ink); color: #17151c; }
   .store.soon { background: var(--fill); color: var(--secondary); }
 }
